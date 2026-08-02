@@ -71,10 +71,12 @@ Download complete!
 
 ```
 Youtube_downloader/
-├── youtube_downloader.py  # Main program file
-├── requirements.txt       # Dependencies
-├── README.md              # Documentation
-└── .gitignore             # Files and folders to ignore
+├── .github/
+│   └── FUNDING.yml           # Support link for DonationAlerts
+├── youtube_downloader.py     # Main program file
+├── requirements.txt          # Dependencies
+├── README.md                 # Documentation
+└── .gitignore                # Files and folders to ignore
 ```
 
 ## 📋 Requirements

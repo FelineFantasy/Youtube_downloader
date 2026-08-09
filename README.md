@@ -76,6 +76,7 @@ Youtube_downloader/
 ├── youtube_downloader.py     # Main program file
 ├── requirements.txt          # Dependencies
 ├── README.md                 # Documentation
+├── LICENSE                   # MIT License file
 └── .gitignore                # Files and folders to ignore
 ```
 

@@ -5,16 +5,6 @@
 
 A simple utility for downloading videos from YouTube, written in Python. Paste a link — get the video!
 
-## 📋 Table of Contents
-- [Description](#description)
-- [How to Use](#how-to-use)
-- [Installation](#installation)
-- [Example Usage](#example-usage)
-- [Project Files](#project-files)
-- [Requirements](#requirements)
-- [Future Plans](#future-plans)
-- [Author](#author)
-
 ## 📝 Description
 
 **YouTube Video Downloader** is a simple console program for downloading videos from YouTube. It uses the powerful `yt-dlp` library and automatically saves videos in the best available quality.

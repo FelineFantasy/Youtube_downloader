@@ -75,13 +75,6 @@ Youtube_downloader/
 - Python 3.x
 - yt-dlp
 
-## 🔮 Future Plans
-
-- [x] Quality selection ✅
-- [x] Audio-only download option ✅
-- [ ] Add support for playlists
-- [x] Progress bar during download
-
 ## 👤 Author
 - **FelineFantasy**
 - **License**: MIT

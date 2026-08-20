@@ -39,7 +39,7 @@ The video will be saved in the same folder as the program.
 2. Select **"Download ZIP"**
 3. Extract the archive
 4. Install dependencies: `pip install -r requirements.txt`
-5. Run the program: `python YouTube_Downloader.py`
+5. Run the program: `python youTube_downloader.py`
 
 ### Option 2: Clone repository
 ```bash

@@ -26,7 +26,7 @@ def get_quality_choice():
     print("4. 480p")
     print("5. 360p")
     print("6. Только аудио (M4A)")
-    print("7. MMPGEF (конвертировать в mmpgef)")
+    print("7. Конвертировать в MMPGEF")
 
     choice = input("Ваш выбор (1-7): ").strip()
 
@@ -92,8 +92,8 @@ def main():
         'quiet': True,
         'no_warnings': True,
         'progress_hooks': [progress_hook],
-        'outtmpl': '%(title)s.%(ext)s',  # Нормальное имя файла
-        'merge_output_format': 'mp4',    # Склеиваем в MP4 через ffmpeg
+        'outtmpl': '%(title)s.%(ext)s',
+        'merge_output_format': 'mp4',
     }
 
     print("\nЗагрузка...")
@@ -104,7 +104,6 @@ def main():
 
         print("Готово! Видео сохранено.")
 
-        # Если выбран формат MMPGEF
         if choice == "7":
             base_name = os.path.splitext(filename)[0]
             convert_to_mmpgef(filename, base_name)

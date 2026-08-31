@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+YouTube Downloader - download videos and audio with quality selection
+"""
+
 import yt_dlp
 import subprocess
 import os
